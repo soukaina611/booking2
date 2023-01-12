@@ -1,0 +1,43 @@
+.FeaturedSection1{
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+    
+}
+.featuredImg{
+    width: 100%;
+    object-fit: cover;
+}
+.FeaturedItem{
+    position: relative;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+.FeaturedTitles{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    position: absolute;
+    top: 20px;
+    left:20px;
+    
+}
+.FeaturedSection2{
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    
+}

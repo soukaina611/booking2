@@ -1,0 +1,72 @@
+.listContainer{
+   display:flex;
+   justify-content: center;
+   margin-top:20px
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display:flex;
+    gap:20px;
+}
+
+.search{
+    flex:1;
+    background-color:#febe02;
+    padding : 10px;
+    border-radius: 3px;
+    position:sticky;
+    height: max-content;
+}
+.listHotels{
+    flex:3;
+}
+.searchText{
+    font-size: 20px;
+    color:black;
+    font-weight: 600;
+
+}
+.destination{
+    display:flex;
+    flex-direction: column;
+}
+.destinationText{
+    font-size: 12px;
+}
+.destination>span{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.destinationInput{
+    outline:none;
+    padding:10px;
+    border:none
+
+}
+.destinationInput:focus{
+    outline: 2px solid #1A73E8;
+
+}
+.checkboxItem>input{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.checkboxText{
+    font-size: 12px;
+}
+.btnSearch>button{
+    background-color: #1A73E8;
+    color:white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    width:100%;
+    cursor: pointer;
+}
+.btnSearch>button:hover{
+    background-color: #003580;
+    
+}
+

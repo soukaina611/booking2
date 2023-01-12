@@ -1,0 +1,50 @@
+.featuredList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 20px;
+}
+.featuredImgList{
+    width: 100%;
+    object-fit: cover;
+}
+.featuredItem{
+    flex :1;
+    cursor:pointer;
+}
+.featuredItemTitle{
+    margin-top: 10px;
+    font-size: 9px;
+    font-weight: 700;
+}
+.featuredDesc{
+    font-size: 13px;
+    color: #6B6B6B;
+    font-weight: 500;
+}
+.featuredDesc span{
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.featuredRating>button {
+    background-color: #003580;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.featuredRating>span{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.featuredReviews{
+    color: #6B6B6B;
+    font-size: 12px;
+}
