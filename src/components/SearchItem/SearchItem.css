@@ -22,6 +22,9 @@
     font-size: 20px;
     color:#1A73E8;
 }
+.hotelTitle:hover{
+    color:#171717;
+}
 
 .distanceCenter{
     font-size: 14px;
@@ -103,6 +106,5 @@
     border-radius: 3px;
     width: 100%;
     margin-top: 5px;
-    
-
+    cursor: pointer;
 }
