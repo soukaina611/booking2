@@ -85,6 +85,8 @@ const handleOptions = (name, operation)=>{
               moveRangeOnFirstSelection={false}
               ranges={date}
               className="dateRange"
+              minDate= {new Date()}
+
             />
             }
         </div>

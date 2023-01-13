@@ -1,0 +1,108 @@
+.searchItem{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #eee;
+    gap:15px;
+    padding:15px;
+    height: max-content;
+}
+.imgHotel{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.hotelDesc{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:5px;
+
+}
+.hotelTitle{
+    font-size: 20px;
+    color:#1A73E8;
+}
+
+.distanceCenter{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.taxiAeroport{
+    font-size: 12px;
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+    width: max-content;
+    padding: 3px;
+}
+.details{
+    display:flex;
+    flex-direction: column;
+    margin-top: 25px;
+    border-left: 2px solid #eee;
+}
+.subTitle{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.roomDetails{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.availibilityRoom{
+    font-size: 12px;
+    color:#CC0000;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.hotelReviews{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.reviews{
+    display: flex;
+    gap:5px;
+}
+.reviewText{
+    font-size: 15px;
+    font-weight: 600;
+}
+.reviewScore{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+.nightNumber{
+    font-size: 12px;
+    color: #6B6B6B
+}
+.priceValue{
+    font-weight: bold;
+}
+.taxesAndFees{
+    font-size: 12px;
+    color: #6B6B6B
+}
+.availibilityBtn{
+    background-color: #1A73E8;
+    color:white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 5px;
+    
+
+}
